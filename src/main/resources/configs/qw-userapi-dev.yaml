@@ -1,0 +1,22 @@
+#spring-boot app specific props
+server:
+  port: 8081
+
+#actuator env vars list endpoint enabled
+management:
+  endpoint:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+#qwep props
+org:
+  qwep:
+    userapi:
+      profile:
+        active: dev
+      ping:
+        message: userapi dev config used

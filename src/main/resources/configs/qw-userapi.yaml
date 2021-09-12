@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+org:
+  qwep:
+    userapi:
+      profile:
+        active: default
+      ping:
+        message: userapi default config used
